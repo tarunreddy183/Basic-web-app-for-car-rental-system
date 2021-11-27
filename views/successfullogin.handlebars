@@ -1,0 +1,35 @@
+<div class="container">
+    <div class="row">
+        <div class="col-sm"></div>
+        <div class="col-sm-4">
+            <form action="/listCarSuccess" method="POST">
+                <img src="/public/image/user.png" height="100" width="100">
+                <h3>Login Successful !!!</h3>
+                <p>To List Your Car <a href="/listCar">click here</a></p>
+                <p>To Rent a Car <a href="/RentCar">click here</a></p>
+                <p>For any Queries <a href="/contact">Click here</a></p>
+                <p>click here if you like to log out <a href="/logout">Log Out</a></p>
+            </form>
+        </div>
+    <div class="col-sm"></div>
+    </div>
+</div>
+<style>
+    body{
+        background-image: url('/public/image/loginsuccess.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    h3{
+        text-align: center;
+        text-decoration: hsla(hue, saturation, lightness, alpha);
+        color: green;
+    }
+    p{
+        color: purple;
+    }
+    img{
+        display: block;
+        margin: 0 auto 0 auto;
+    }
+</style>

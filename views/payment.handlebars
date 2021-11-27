@@ -1,0 +1,31 @@
+<div class="container">
+    <div class="row">
+        <div class="col-sm"></div>
+        <div class="col-sm-3">
+            <form action="/payment" method="POST">
+                <div class="form-group">
+                    <label for="payment">Choose method for Payment</label>
+                    <select name="payment" class="form-control">
+                        <option value="Choosemethod">Choose Method</option>
+                        <option value="creditcard">Credit Card</option>
+                        <option value="Debitcard">Debit Card</option>
+                        <option value="Netbanking">Net Banking</option>
+                        <option value="e-wallet">E-wallet</option>
+                        <option value="upi">UPI</option>
+                    </select>
+                    <div class="form-group">
+                         <button type="submit" class="form-control btn btn-danger">Proceed</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="col-sm"></div>
+    </div>
+</div>
+<style>
+    body{
+        background-image: url('/public/image/bg.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+</style>
